@@ -4,7 +4,7 @@ void(int a , int b, String op) {
         return a +b;
     }
     else if(op=="-"){
-        return a - b;
+        return sub(a,b);
     }
 
 }
