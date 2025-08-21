@@ -5,6 +5,8 @@ void(int a , int b, String op) {
     }
     else if(op=="-"){
         return a - b;
+    }else if(op=="*"){
+        return a*b;
     }
 
 }
